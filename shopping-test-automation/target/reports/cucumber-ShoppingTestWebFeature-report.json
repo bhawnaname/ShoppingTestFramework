@@ -1,0 +1,727 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-03-01T18:13:48.588Z",
+        "line": 7,
+        "name": "Verify that the order is getting placed successfully as a registered user",
+        "description": "",
+        "id": "end-to-end-customer-journey-for-order-placement;verify-that-the-order-is-getting-placed-successfully-as-a-registered-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17229000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I navigate to application",
+            "match": {
+              "location": "com.shopping.test.web.stepdefs.PlaceOrderStepDefs.i_navigate_to_application()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.shopping.test.web.stepdefs.PlaceOrderStepDefs.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.shopping.test.web.stepdefs.personalInfoStepDefs.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3901000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I logged in as as registered user",
+            "match": {
+              "location": "com.shopping.test.web.stepdefs.PlaceOrderStepDefs.i_logged_in_as_as_registered_user()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.shopping.test.web.stepdefs.PlaceOrderStepDefs.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.shopping.test.web.stepdefs.personalInfoStepDefs.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2867000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I navigate to the Dress ProductListing Page",
+            "match": {
+              "location": "com.shopping.test.web.stepdefs.PlaceOrderStepDefs.i_navigate_to_the_Dress_ProductListing_Page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.shopping.test.web.stepdefs.PlaceOrderStepDefs.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.shopping.test.web.stepdefs.personalInfoStepDefs.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 308000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I add Tshirt item to my basket",
+            "match": {
+              "location": "com.shopping.test.web.stepdefs.PlaceOrderStepDefs.i_add_Tshirt_item_to_my_basket()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.shopping.test.web.stepdefs.PlaceOrderStepDefs.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.shopping.test.web.stepdefs.personalInfoStepDefs.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4396000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I proceed to checkout",
+            "match": {
+              "location": "com.shopping.test.web.stepdefs.PlaceOrderStepDefs.i_proceed_to_checkout()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.shopping.test.web.stepdefs.PlaceOrderStepDefs.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.shopping.test.web.stepdefs.personalInfoStepDefs.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1311000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I am on the Shipping details",
+            "match": {
+              "location": "com.shopping.test.web.stepdefs.PlaceOrderStepDefs.i_am_on_the_Shipping_details()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.shopping.test.web.stepdefs.PlaceOrderStepDefs.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.shopping.test.web.stepdefs.personalInfoStepDefs.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2002000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I agree to the Terms and Conditions on shipping details",
+            "match": {
+              "location": "com.shopping.test.web.stepdefs.PlaceOrderStepDefs.i_agree_the_the_Terms_and_Conditions_on_shipping_details()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.shopping.test.web.stepdefs.PlaceOrderStepDefs.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.shopping.test.web.stepdefs.personalInfoStepDefs.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1058000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I am on the payment details",
+            "match": {
+              "location": "com.shopping.test.web.stepdefs.PlaceOrderStepDefs.i_am_on_the_payment_details()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.shopping.test.web.stepdefs.PlaceOrderStepDefs.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.shopping.test.web.stepdefs.personalInfoStepDefs.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2280000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I confirm my order on payment page",
+            "match": {
+              "location": "com.shopping.test.web.stepdefs.PlaceOrderStepDefs.i_confirm_my_order_on_payment_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.shopping.test.web.stepdefs.PlaceOrderStepDefs.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.shopping.test.web.stepdefs.personalInfoStepDefs.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 134000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I  navigate to the order confirmation page",
+            "match": {
+              "location": "com.shopping.test.web.stepdefs.PlaceOrderStepDefs.i_navigate_to_the_order_confirmation_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.shopping.test.web.stepdefs.PlaceOrderStepDefs.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.shopping.test.web.stepdefs.personalInfoStepDefs.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@complete"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-03-01T18:14:24.139Z",
+        "line": 20,
+        "name": "Verify that the order is displaying in Order History Page",
+        "description": "",
+        "id": "end-to-end-customer-journey-for-order-placement;verify-that-the-order-is-displaying-in-order-history-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 21863000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I navigate to Order History page",
+            "match": {
+              "location": "com.shopping.test.web.stepdefs.PlaceOrderStepDefs.i_navigate_to_Order_History_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.shopping.test.web.stepdefs.PlaceOrderStepDefs.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.shopping.test.web.stepdefs.personalInfoStepDefs.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 989000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I should see the OrderDetails on the OrderHistoryPage",
+            "match": {
+              "location": "com.shopping.test.web.stepdefs.PlaceOrderStepDefs.i_should_see_the_OrderDetails_on_the_OrderHistoryPage()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.shopping.test.web.stepdefs.PlaceOrderStepDefs.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.shopping.test.web.stepdefs.personalInfoStepDefs.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "End to end customer journey for Order Placement",
+    "description": "  As a customer\n  I want to place the order as registered user and checking the Placed Order in OrderHistory Page",
+    "id": "end-to-end-customer-journey-for-order-placement",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/bnc/placeOrder.feature",
+    "tags": [
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-03-01T18:14:47.001Z",
+        "line": 19,
+        "name": "Verify that the user is able to update the Personal Information in My Account Page",
+        "description": "",
+        "id": "update-personal-information;verify-that-the-user-is-able-to-update-the-personal-information-in-my-account-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 21506000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I login to the application as signed in user",
+            "match": {
+              "location": "com.shopping.test.web.stepdefs.personalInfoStepDefs.i_login_to_the_application_as_signed_in_user()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.shopping.test.web.stepdefs.PlaceOrderStepDefs.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.shopping.test.web.stepdefs.personalInfoStepDefs.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 29000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I view the My Account Page",
+            "match": {
+              "location": "com.shopping.test.web.stepdefs.personalInfoStepDefs.i_view_the_My_Account_Page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.shopping.test.web.stepdefs.PlaceOrderStepDefs.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.shopping.test.web.stepdefs.personalInfoStepDefs.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1493000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I view the My Personal Information",
+            "match": {
+              "location": "com.shopping.test.web.stepdefs.personalInfoStepDefs.i_view_the_My_Personal_Information()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.shopping.test.web.stepdefs.PlaceOrderStepDefs.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.shopping.test.web.stepdefs.personalInfoStepDefs.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 99000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I update the \"Henna\" in \"NameField\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Henna\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"NameField\"",
+                  "offset": 24
+                }
+              ],
+              "location": "com.shopping.test.web.stepdefs.personalInfoStepDefs.i_update_the_in(java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.shopping.test.web.stepdefs.PlaceOrderStepDefs.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.shopping.test.web.stepdefs.personalInfoStepDefs.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 99000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter \"Password\" in \"passwordField\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Password\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"passwordField\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.shopping.test.web.stepdefs.personalInfoStepDefs.i_enter_in(java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.shopping.test.web.stepdefs.PlaceOrderStepDefs.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.shopping.test.web.stepdefs.personalInfoStepDefs.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 972000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on save",
+            "match": {
+              "location": "com.shopping.test.web.stepdefs.personalInfoStepDefs.i_click_on_save()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.shopping.test.web.stepdefs.PlaceOrderStepDefs.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.shopping.test.web.stepdefs.personalInfoStepDefs.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I should see the successful update personal Information message",
+            "match": {
+              "location": "com.shopping.test.web.stepdefs.personalInfoStepDefs.i_should_see_the_successful_update_personal_Information_message()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.shopping.test.web.stepdefs.PlaceOrderStepDefs.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.shopping.test.web.stepdefs.personalInfoStepDefs.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 102000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I should see the updated \"Henna\" on My Account Header",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Henna\"",
+                  "offset": 25
+                }
+              ],
+              "location": "com.shopping.test.web.stepdefs.personalInfoStepDefs.i_should_see_the_updated_on_My_Account_Header(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.shopping.test.web.stepdefs.PlaceOrderStepDefs.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.shopping.test.web.stepdefs.personalInfoStepDefs.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Update Personal Information",
+    "description": "  As a customer\n  I want to update my personal Information(Name) in my Account",
+    "id": "update-personal-information",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/myAccount/personalInformation.feature",
+    "tags": [
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
